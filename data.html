@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+   
+    <div id="container">
+        <h2>School Game Record</h2>
+        <div class="input" id="Firstinput">First Name: <input type="text" placeholder="first name" id="first"></div>
+        <div class="input">Last Name: <input type="text" placeholder="last name" id="last"></div>
+        <div class="input">Age: <input type="text" placeholder="age" id="age"></div>
+        <div class="input"> 
+            <form action="" name="formId">
+                Games:
+             <select name="selectID" id="select">
+            <option value= "0">---Select Game---</option>
+            <option value="soccer">soccer</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Baseball">Baseball</option>
+            <option value="Golf">Golf</option>
+            <option value="Running">Running</option>
+            <option value="Volleyball">Volleyball</option>
+            <option value="Badminton">Badminton</option>
+            <option value="swimming">swimming</option>
+            <option value="boxing">boxing</option>
+            <option value="table tennis">table tennis</option>
+            <option value="skiing">skiing</option>
+            <option value="ice skating">ice skating</option>
+            <option value="roller skating ">roller skating </option>
+            <option value="cricket ">cricket</option>
+            <option value="rugby">rugby</option>
+            <option value="pool">pool</option>
+            <option value="darts ">darts</option>
+            <option value="football">football</option>
+            
+        </select>
+       </form>
+    </div>
+        <button id="enter" onclick="displayEnters();">Enter</button>
+    </div>
+        <p id="p1"></p>
+        <hr>
+        
+    </div>
+    <table id="display">
+           <thead>
+            <tr>
+                <td>S.No</td>
+                <td>Names</td>
+                <td>Age</td>
+                <td>Games</td>
+                <td>Bin</td>
+            </tr>
+           </thead>
+           <tbody>
+
+           </tbody>
+        
+    </table>
+
+    <script src="data.js"></script>
+</body>
+</html>
